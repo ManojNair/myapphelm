@@ -36,5 +36,7 @@ jobs:
           dotnet --version
           dotnet --list-sdks
 
-      - name: List environment variables
-        run: env
+
+      - name: Print GitHub Context
+        run: echo "${{ toJSON(github) }}"
+
