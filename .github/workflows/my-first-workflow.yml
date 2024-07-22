@@ -36,5 +36,5 @@ jobs:
           dotnet --version
           dotnet --list-sdks
 
-     - name: List environment variables
-       run: env
+      - name: List environment variables
+        run: env
